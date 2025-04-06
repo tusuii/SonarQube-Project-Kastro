@@ -3,33 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kastro's App</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Spotify clone - Music for Everyone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="app-container">
-        <!-- Welcome Message -->
-        <h1 class="app-title">Welcome to Kastro's App</h1>
-
-        <!-- Buttons with YouTube Icons for Docker and Nexus Courses -->
-        <div class="youtube-links">
-            <a href="https://www.youtube.com/playlist?list=PLs-PsDpuAuTeNx3OgGQ1QrpNBo-XE6VBh" target="_blank" class="youtube-button">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/YouTube_icon_%282013-2017%29.png" alt="YouTube Icon" class="youtube-icon">
-                Click Here for Docker Course
-            </a>
-            <a href="https://www.youtube.com/watch?v=opJAfDOCZuI" target="_blank" class="youtube-button">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/YouTube_icon_%282013-2017%29.png" alt="YouTube Icon" class="youtube-icon">
-                Click Here for Nexus Course
-            </a>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="Spotify Logo" class="logo">
         </div>
-
-        <!-- Footer Message -->
-        <div class="footer">
-            <h2 class="footer-message">Congratulations for learning SonarQube</h2>
+        <div class="nav-right">
+            <a href="#" class="nav-link">Premium</a>
+            <a href="#" class="nav-link">Support</a>
+            <a href="#" class="nav-link">Download</a>
+            <span class="divider">|</span>
+            <a href="#" class="nav-link">Sign up</a>
+            <a href="#" class="nav-link login-btn">Log in</a>
         </div>
-    </div>
+    </nav>
 
-    <script src="app.js"></script>
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Music for everyone</h1>
+            <p>Millions of songs. No credit card needed.</p>
+            <button class="cta-button">GET SPOTIFY FREE</button>
+        </div>
+    </main>
+
+    <section class="features">
+        <h2>Why Spotify?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-music"></i>
+                <h3>Millions of Songs</h3>
+                <p>There are millions of songs on Spotify</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-bolt"></i>
+                <h3>HD Music</h3>
+                <p>Listen to music as if you were there</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Stream Everywhere</h3>
+                <p>Stream music on your smartphone, tablet or computer</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="Spotify Logo" class="footer-logo">
+            </div>
+            <div class="footer-section">
+                <h4>COMPANY</h4>
+                <a href="#">About</a>
+                <a href="#">Jobs</a>
+                <a href="#">For the Record</a>
+            </div>
+            <div class="footer-section">
+                <h4>COMMUNITIES</h4>
+                <a href="#">For Artists</a>
+                <a href="#">Developers</a>
+                <a href="#">Advertising</a>
+            </div>
+            <div class="footer-section">
+                <h4>USEFUL LINKS</h4>
+                <a href="#">Support</a>
+                <a href="#">Web Player</a>
+                <a href="#">Free Mobile App</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Spotify AB</p>
+        </div>
+    </footer>
 </body>
 </html>
